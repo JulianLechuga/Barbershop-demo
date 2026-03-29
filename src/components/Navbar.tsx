@@ -45,6 +45,7 @@ const Navbar = () => {
 
       <div className="nav-links" style={{ display: 'flex', gap: '30px', alignItems: 'center' }}>
         <a href="#inicio" className="hover-gold" style={{ color: 'white', textTransform: 'uppercase', fontSize: '0.9rem', letterSpacing: '1px' }}>Inicio</a>
+        <a href="#sobre-nosotros" className="hover-gold" style={{ color: 'white', textTransform: 'uppercase', fontSize: '0.9rem', letterSpacing: '1px' }}>Nosotros</a>
         <a href="#servicios" className="hover-gold" style={{ color: 'white', textTransform: 'uppercase', fontSize: '0.9rem', letterSpacing: '1px' }}>Servicios</a>
         <a href="#equipo" className="hover-gold" style={{ color: 'white', textTransform: 'uppercase', fontSize: '0.9rem', letterSpacing: '1px' }}>Equipo</a>
         <a href="#galeria" className="hover-gold" style={{ color: 'white', textTransform: 'uppercase', fontSize: '0.9rem', letterSpacing: '1px' }}>Galería</a>

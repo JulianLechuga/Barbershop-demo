@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import About from './components/About';
 import { Camera, Share2, Phone, MapPin, Clock, Star } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -10,6 +11,7 @@ function App() {
     <div className="app">
       <Navbar />
       <Hero />
+      <About />
       <Services />
 
       {/* Gallery Section */}
@@ -24,8 +26,10 @@ function App() {
             gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', 
             gap: '15px' 
           }}>
-            <img src="/images/cutting.png" alt="Corte" style={{ width: '100%', height: '400px', objectFit: 'cover', filter: 'grayscale(0.5) contrast(1.1)', transition: 'all 0.5s ease' }} onMouseOver={e => e.currentTarget.style.filter = 'none'} onMouseOut={e => e.currentTarget.style.filter = 'grayscale(0.5) contrast(1.1)'} />
-            <img src="/images/shaving.png" alt="Afeitado" style={{ width: '100%', height: '400px', objectFit: 'cover', filter: 'grayscale(0.5) contrast(1.1)', transition: 'all 0.5s ease' }} onMouseOver={e => e.currentTarget.style.filter = 'none'} onMouseOut={e => e.currentTarget.style.filter = 'grayscale(0.5) contrast(1.1)'} />
+            <img src="/images/cutting.png" alt="Corte" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
+            <img src="/images/shaving.png" alt="Afeitado" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
+            <img src="/images/tools.png" alt="Herramientas" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
+            <img src="/images/barbers.png" alt="Nuestro Equipo" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
             <div style={{ 
               backgroundColor: 'var(--bg-card)', 
               display: 'flex', 

@@ -1,3 +1,5 @@
+import React from 'react';
+import { motion } from 'framer-motion';
 import loungeTitle from '../assets/images/lounge.png';
 
 const About = () => {

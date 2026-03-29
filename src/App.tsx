@@ -1,3 +1,10 @@
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Services from './components/Services';
+import About from './components/About';
+import { Camera, Share2, Phone, MapPin, Clock, Star } from 'lucide-react';
+import { motion } from 'framer-motion';
 import cuttingImg from './assets/images/cutting.png';
 import shavingImg from './assets/images/shaving.png';
 import toolsImg from './assets/images/tools.png';

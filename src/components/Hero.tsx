@@ -1,5 +1,4 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import heroBg from '../assets/images/hero_bg.png';
 
 const Hero = () => {
   return (
@@ -12,7 +11,7 @@ const Hero = () => {
       alignItems: 'center',
       justifyContent: 'center',
       textAlign: 'center',
-      background: 'linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("/images/hero_bg.png")',
+      background: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${heroBg})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       color: 'white'

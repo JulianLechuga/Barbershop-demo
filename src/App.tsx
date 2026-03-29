@@ -1,10 +1,7 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import About from './components/About';
-import { Camera, Share2, Phone, MapPin, Clock, Star } from 'lucide-react';
-import { motion } from 'framer-motion';
+import cuttingImg from './assets/images/cutting.png';
+import shavingImg from './assets/images/shaving.png';
+import toolsImg from './assets/images/tools.png';
+import barbersImg from './assets/images/barbers.png';
 
 function App() {
   return (
@@ -26,10 +23,10 @@ function App() {
             gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', 
             gap: '15px' 
           }}>
-            <img src="/images/cutting.png" alt="Corte" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
-            <img src="/images/shaving.png" alt="Afeitado" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
-            <img src="/images/tools.png" alt="Herramientas" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
-            <img src="/images/barbers.png" alt="Nuestro Equipo" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
+            <img src={cuttingImg} alt="Corte" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
+            <img src={shavingImg} alt="Afeitado" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
+            <img src={toolsImg} alt="Herramientas" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
+            <img src={barbersImg} alt="Nuestro Equipo" style={{ width: '100%', height: '400px', objectFit: 'cover' }} />
             <div style={{ 
               backgroundColor: 'var(--bg-card)', 
               display: 'flex', 

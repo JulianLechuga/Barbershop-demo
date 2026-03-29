@@ -1,5 +1,4 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import loungeTitle from '../assets/images/lounge.png';
 
 const About = () => {
   return (
@@ -12,7 +11,7 @@ const About = () => {
           transition={{ duration: 0.8 }}
         >
           <img 
-            src="/images/lounge.png" 
+            src={loungeTitle} 
             alt="Lounge area" 
             style={{ width: '100%', height: '500px', objectFit: 'cover', border: '1px solid var(--primary)', padding: '10px' }} 
           />
